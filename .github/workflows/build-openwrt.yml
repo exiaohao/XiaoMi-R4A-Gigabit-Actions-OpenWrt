@@ -63,7 +63,7 @@ jobs:
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
         cd openwrt/
-        git checkout v21.02.2
+        git checkout v21.02.1
         cd ../
         
     - name: Revise mt7621_xiaomi_mi-router-4a-3g-v2.dtsi
